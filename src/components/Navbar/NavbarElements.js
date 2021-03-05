@@ -68,11 +68,12 @@ export const NavMenu = styled.ul`
     }
 `
 
-export const NavItem = styled.li`
-    font-size: 22px
+export const NavItem = styled.li `
+        font-size: 22px;
 `
+
 export const NavLinks = styled(LinkS) `
-    color: #fff
+    color: #b6a146;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -81,11 +82,10 @@ export const NavLinks = styled(LinkS) `
     cursor: pointer;
     font-family: 'Lobster', cursive;
     
-
     &.active {
         border-bottom: 3px solid #b6a146;
     }
-    `;
+    ` 
 
 
 

@@ -1,0 +1,16 @@
+export const homeObjOne = {
+    id: 'about', 
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Learn French With Leslie',
+    headLine: 'Private Online French Lessons for adults and children',
+    description: 'Schedule a free evaluation call',
+    buttonLabel: 'Click Here',
+    imgStart: true,
+    img: require('../../images/french-flag.jpg').default,
+    alt: 'Flag',
+    dark: true,
+    primary: true,
+    darkText: false,
+}
